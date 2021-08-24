@@ -1,0 +1,20 @@
+.card{
+  margin-left: 11px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+a{
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 11px;
+}
+
+.card-body{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+}

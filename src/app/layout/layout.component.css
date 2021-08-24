@@ -1,0 +1,30 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #fefa01;
+  font-size: 50px;
+}
+
+.layout{
+  background: url(../../assets/img/back.jpg) no-repeat center center fixed; 
+  height: 100vh;
+}
+
+.centrado{  
+  display: flex;
+  justify-content: center;
+}
+
+.form-floating{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h5{
+  color: goldenrod;
+}
+
+.er{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}

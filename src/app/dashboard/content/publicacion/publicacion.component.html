@@ -1,0 +1,22 @@
+<div class="post-bar">
+  <div class="post_topbar">
+    <div class="usy-dt">                    
+      <div class="usy-name">
+        <img [src]="imagenUsuario" alt="" width="50px" height="50px">
+        <h3 style="display: inline;">{{nombreUsuario}} {{apellidoUsuario}}</h3>
+      </div>
+    </div>  
+    <div *ngIf = "canDelete" class="botonEliminar"> 
+      <img (click)="attemptDelete()" src="../../../../assets/img/trash.png" alt="">     
+    </div>                
+  </div>                
+  <div class="job_descp">                  
+    <p>{{contenido}}</p>
+    <div class="d-flex justify-content-end fecha"><span>{{fecha}}</span></div>
+  </div>
+  <hr>
+  <div *ngIf="amistad" class="job-status-bar">
+    <textarea class="form-control" aria-label="With textarea" style="margin-top: 5px;"></textarea>
+    <button type="button" class="btn btn-primary" style="margin-top: 5px;">Comentar</button>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div *ngIf = "aceptados == 0 && estatus == 0" class="card " style="width: 13rem;">
+  <img [src]="imagenAmigo" class="card-img-top" routerLink = "user/{{idAmigo}}">
+  <div class="card-body">
+    <h5 class="card-title text-center" >{{nombreAmigo}} {{apellidoAmigo}}</h5>
+    <div *ngIf = "estatus == 0" class="d-flex justify-content-center">
+      <div *ngIf = "emisor" >
+        <span class="badge rounded-pill bg-primary">Solicitud Enviada</span>
+      </div>
+      <div *ngIf = "!emisor">
+        <a (click)="actualizarAmistad(1)" class="btn btn-success">Aceptar</a>
+        <a (click)="actualizarAmistad(2)" class="btn btn-danger">Rechazar</a>
+      </div>
+      
+    </div>
+    <div *ngIf = "estatus == 1" class="d-flex justify-content-center">
+      <a href="#" class="btn btn-primary">Ver Perfil</a>
+      <a href="#" class="btn btn-danger">Eliminar</a>      
+    </div>
+  </div>
+</div>

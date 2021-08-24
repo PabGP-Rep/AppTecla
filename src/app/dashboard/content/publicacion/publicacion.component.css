@@ -1,0 +1,87 @@
+h3{
+  color: orangered;
+}
+
+.post-bar {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0px 2px #e4e4e4;
+}
+
+.post_topbar {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.usy-dt {
+  float: left;
+}
+
+.usy-name {
+  float: left;
+  margin-left: 5px;
+}
+
+.usy-name h3 {
+  font-size: 20px;
+}
+
+.usy-name img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;  
+  
+  margin-right: 6px;
+  border: 3px solid coral;
+  border-radius: 50px; 
+}
+
+.botonEliminar img{
+  width: 30px;
+  height: 30px;
+  border: none;
+  float: right;
+  margin: 0;  
+}
+
+.botonEliminar img:hover{
+  width: 40px;
+  height: 40px;
+  border: none;
+  float: right;
+  margin: 0;
+  
+}
+
+.job_descp {
+  margin-left: 4px;
+  margin-top: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  width: 100%;
+  word-break: break-all;
+}
+
+.fecha {
+  color: gray;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.job-status-bar {
+  border-top: 1px solid #e5e5e5;
+}
+
+.job-status-bar {
+  float: left;
+  width: 100%;
+}
+

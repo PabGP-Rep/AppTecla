@@ -1,0 +1,26 @@
+<div class="layout">
+  <div class="container">
+    <div class="text-center" style="padding-top: 15px;">
+      <p> <strong>Tecla Coding Academy</strong></p>
+    </div>
+  </div>
+  <div class="centrado" style="padding-top: 50px;">
+    <form>
+      <div class="centrado">
+        <img class="border border-success border-5 rounded-circle" src="../../assets/img/tecla.jpg" alt="" width="100" height="100" style="margin: auto;">
+      </div>      
+      <h1 class="h3 mb-3 fw-normal" style="color: whitesmoke;">Por favor inicie Sesión</h1>  
+      <div class="form-floating">
+        <input [(ngModel)] = "email" name="email" type="email" class="form-control" id="userName" placeholder="name@example.com" >
+        <label for="floatingInput">Correo electrónico</label>
+      </div>
+      <div class="form-floating">
+        <input [(ngModel)] = "pass" name="pass" type="password" class="form-control" id="userPass" placeholder="Password">
+        <label for="floatingPassword">Contraseña<a href=""></a></label>
+      </div>      
+      <button class="w-100 btn btn-md btn-primary" type="reset" id="botonLogin" (click)="attemptLogin()">Iniciar Sesión</button>
+    </form>
+  </div>
+  <div class="er"><h5 id="errorMessage">{{errorMessage}}</h5></div>   
+</div>
+

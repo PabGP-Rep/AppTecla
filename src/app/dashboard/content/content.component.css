@@ -1,0 +1,272 @@
+div {
+  display: block;
+}
+
+h3{
+  color: orangered;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-section-data {
+  float: left;
+  width: 100%;
+}
+
+.row {
+  margin: 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.no-pd {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.main-left-sidebar {
+  float: left;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.user-data {
+  text-align: center;
+}
+
+
+
+.full-width {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.Conocimientos{
+  background-color: rgb(29, 121, 41);
+}
+
+.user-profile {
+  float: left;
+  width: 100%;
+}
+
+.username-dt {
+  float: left;
+  width: 100%;
+  background-color: #787dc9;
+  padding-top: 20px;
+}
+
+.usr-pic {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: -48px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.usr-pic img {
+  float: none;
+  border: 5px solid coral;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.user-specs {
+  float: left;
+  width: 100%;
+  padding: 43px 0 0 0;
+}
+
+.user-fw-status {
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.user-fw-status li h4 {
+  color: #494949;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.user-fw-status li h5 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+.user-fw-status li a {
+  color: #e44d3a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.suggestion-usd img{
+  width: 35px;
+  height: 35px;
+  float: left;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+
+.main-ws-sec {
+  float: left;
+  width: 100%;
+}
+
+.post-topbar {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  border-top: 20px solid #787dc9;
+  border-left: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  -webkit-box-shadow: 0 0 1px rgb(0 0 0 / 24%);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.24);
+  -ms-box-shadow: 0 0 1px rgba(0,0,0,0.24);
+  -o-box-shadow: 0 0 1px rgba(0,0,0,0.24);
+  box-shadow: 0 0 1px rgb(0 0 0 / 24%);
+  margin-bottom: 20px;
+}
+
+.user-picy {
+  float: left;
+  width: 50px;
+}
+
+.user-picy img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.post-st {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.post-st textarea {
+  margin-left: 15px;
+  width: 410px;
+  float: left;
+  margin-top: 5px;
+}
+
+.post-st ul li {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.post-st ul li a {
+  color: #b2b2b2;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #e5e5e5;
+  height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.post-st ul li a:hover, .post-st ul li a.active {
+  background-color: #e44d3a;
+  color: #fff;
+}
+
+.posts-section {
+  float: left;
+  width: 100%;
+}
+
+.post-bar {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 2px #e4e4e4;
+}
+
+.post_topbar {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.usy-dt {
+  float: left;
+}
+
+.usy-name {
+  float: left;
+  margin-left: 5px;
+}
+
+.usy-name h3 {
+  font-size: 20px;
+}
+
+.usy-name img {
+  margin-top: 4px;
+  margin-right: 6px;
+}
+
+.job_descp {
+  float: left;
+  width: 100%;
+}
+
+.job-status-bar {
+  border-top: 1px solid #e5e5e5;
+}
+
+.job-status-bar {
+  float: left;
+  width: 100%;
+}
+
+.like-com {
+  float: left;
+  margin-top: 20px;
+}

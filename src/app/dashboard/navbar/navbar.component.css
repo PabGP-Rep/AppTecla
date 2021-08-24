@@ -1,0 +1,15 @@
+.navbar{
+  background-color: #78c8c9;
+  height: 62px;
+}
+
+a{
+  font-size: 20px;
+  color: #fefa01;
+  padding-left: 10px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
